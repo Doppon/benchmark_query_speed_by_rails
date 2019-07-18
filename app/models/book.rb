@@ -1,3 +1,3 @@
 class Book < ApplicationRecord
-  scope :sort_by_code_id, -> { order(id: :desc).limit(100) }
+  scope :sort_by_code_id, -> (count) { order(id: :desc).limit(count) }
 end
