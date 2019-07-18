@@ -7,6 +7,14 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Book.create!(
-  name: 'アーロン',
-  code_id: 19999
+  [
+    {
+      name: 'シーモア',
+      code_id: 4392
+    },
+    {
+      name: 'リュック',
+      code_id: 99999
+    }
+  ]
 )
